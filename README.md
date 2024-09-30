@@ -9,14 +9,14 @@ a command line minesweeper game
 
 ## How to run
 1. **Clone the repository :
-    ``` git clone https://github.com/michellencs/minesweeper.git
+    git clone https://github.com/michellencs/minesweeper.git
 2. **Compile the game 
-    ``` javac MinesweeperGame.java
+     javac MinesweeperGame.java
 3. **Run the game
-   ``` bash java MinesweeperGame
+    bash java MinesweeperGame
 4. **Play the game
     - Enter the grid size and number of mines
     - Reveal cells by specifiying coordinates (e.g A1)
 ## Run Tests
 to run the test using test framework like Junit or execute:
-``` mvn test
+ mvn test
