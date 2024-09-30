@@ -25,12 +25,7 @@ public class MinesweeperGameTest {
         assertEquals(3, game.getMineCount());  // initial grid cell is hidden
     }
 
-//    @Test
-//    public void testRevealSaveCell() {
-//        game.forceMinePlacement(1,1); // force a mine at 1,1
-//        assertEquals(0, game.revealCell(0,0));  // should reveal 0 adjacent mines
-//    }
-
+    
     @Test
     public void testRevealMineCell() {
         game.forceMinePlacement(1,1); // force a mine at 1,1
